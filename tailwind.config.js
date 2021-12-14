@@ -1,9 +1,18 @@
 module.exports = {
-  purge: [],
-  content: ["./src/**/*.{html,js}"],
+  mode: "jit",
+  purge: ["./src/**/*.js", "./public/index.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    fontFamily: {
+      sans: ["Roboto", "sans-serif"],
+      serif: ['"Roboto Slab"', "serif"],
+      body: ["Roboto", "sans-serif"],
+    },
+    extend: {
+      width: {
+        200: "200px",
+      },
+    },
   },
   variants: {
     extend: {},

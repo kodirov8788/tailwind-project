@@ -1,0 +1,9 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer utilities {
+  .-translate-x-1\/2 {
+    --tw-translate-x: -50% !important;
+  }
+}
