@@ -545,8 +545,20 @@ video {
 	--tw-ring-offset-shadow: 0 0 #0000;
 	--tw-ring-shadow: 0 0 #0000;
 }
-.m-auto {
-	margin: auto;
+.relative {
+	position: relative;
+}
+.absolute {
+	position: absolute;
+}
+.top-\[30\%\] {
+	top: 30%;
+}
+.top-\[10\%\] {
+	top: 10%;
+}
+.mr-\[7px\] {
+	margin-right: 7px;
 }
 .mt-auto {
 	margin-top: auto;
@@ -554,11 +566,8 @@ video {
 .mb-auto {
 	margin-bottom: auto;
 }
-.mr-1 {
-	margin-right: 0.25rem;
-}
-.mr-\[7px\] {
-	margin-right: 7px;
+.ml-1 {
+	margin-left: 0.25rem;
 }
 .block {
 	display: block;
@@ -572,20 +581,23 @@ video {
 .h-\[60px\] {
 	height: 60px;
 }
+.h-full {
+	height: 100%;
+}
 .w-full {
 	width: 100%;
 }
 .w-\[200px\] {
 	width: 200px;
 }
-.w-\[8px\] {
-	width: 8px;
-}
 .w-\[900px\] {
 	width: 900px;
 }
 .w-\[72px\] {
 	width: 72px;
+}
+.w-\[90\%\] {
+	width: 90%;
 }
 .items-center {
 	align-items: center;
@@ -596,59 +608,50 @@ video {
 .justify-between {
 	justify-content: space-between;
 }
-.rounded-sm {
-	border-radius: 0.125rem;
-}
 .rounded-\[10px\] {
 	border-radius: 10px;
 }
-.border {
-	border-width: 1px;
+.border-none {
+	border-style: none;
 }
 .bg-white {
 	--tw-bg-opacity: 1;
 	background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
 }
-.bg-red-200 {
-	--tw-bg-opacity: 1;
-	background-color: rgba(254, 202, 202, var(--tw-bg-opacity));
-}
 .bg-\[\#F8F8F8\] {
 	--tw-bg-opacity: 1;
 	background-color: rgba(248, 248, 248, var(--tw-bg-opacity));
-}
-.bg-\[\#a18d8d\] {
-	--tw-bg-opacity: 1;
-	background-color: rgba(161, 141, 141, var(--tw-bg-opacity));
 }
 .bg-\[\#1D1D1D\] {
 	--tw-bg-opacity: 1;
 	background-color: rgba(29, 29, 29, var(--tw-bg-opacity));
 }
-.p-2 {
-	padding: 0.5rem;
+.bg-transparent {
+	background-color: transparent;
+}
+.bg-none {
+	background-image: none;
 }
 .p-3 {
 	padding: 0.75rem;
 }
+.p-1 {
+	padding: 0.25rem;
+}
+.p-2 {
+	padding: 0.5rem;
+}
 .text-\[10px\] {
 	font-size: 10px;
-}
-.text-\[20px\] {
-	font-size: 20px;
 }
 .text-\[14px\] {
 	font-size: 14px;
 }
-.text-\[16px\] {
-	font-size: 16px;
+.text-\[20px\] {
+	font-size: 20px;
 }
 .text-\[18px\] {
 	font-size: 18px;
-}
-.text-blue-400 {
-	--tw-text-opacity: 1;
-	color: rgba(96, 165, 250, var(--tw-text-opacity));
 }
 .text-\[\#8D8D8D\] {
 	--tw-text-opacity: 1;
@@ -657,4 +660,11 @@ video {
 .text-white {
 	--tw-text-opacity: 1;
 	color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+.text-transparent {
+	color: transparent;
+}
+.outline-none {
+	outline: 2px solid transparent;
+	outline-offset: 2px;
 }
